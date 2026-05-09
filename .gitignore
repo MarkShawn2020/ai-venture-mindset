@@ -9,9 +9,8 @@ node_modules/
 .env
 .idea/
 
-# M1 PDF outputs (regeneratable, not committed)
-output/m1/AI*.pdf
-output/m1/AI*.md
-output/m1/back-cover.png
-output/m1/frontispiece.png
+# Generated PDF/MD outputs (regeneratable, not committed)
+output/articles/*.pdf
+output/articles/*.md
+output/images/*.png
 
