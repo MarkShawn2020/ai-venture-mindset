@@ -1,0 +1,32 @@
+[book]
+authors = ["手工川"]
+language = "zh-CN"
+src = "src"
+title = "AI 风投心法"
+description = "从天际到硅谷，AI 时代风险投资的 25 条铁律"
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "ayu"
+git-repository-url = "https://github.com/MarkShawn2020/ai-venture-mindset"
+edit-url-template = "https://github.com/MarkShawn2020/ai-venture-mindset/edit/main/{path}"
+site-url = "/ai-venture-mindset/"
+mathjax-support = false
+no-section-label = false
+
+[output.html.fold]
+enable = true
+level = 1
+
+[output.html.search]
+enable = true
+limit-results = 30
+use-boolean-and = true
+boost-title = 2
+boost-hierarchy = 2
+boost-paragraph = 1
+expand = true
+heading-split-level = 3
+
+[output.html.print]
+enable = true

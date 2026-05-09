@@ -1,0 +1,10 @@
+book/
+target/
+*.pdf
+*.epub
+.DS_Store
+node_modules/
+.vscode/
+*.log
+.env
+.idea/
