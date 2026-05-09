@@ -75,4 +75,79 @@
 
 ---
 
+## B.5 AI 投资专属术语
+
+| 中文 | English | 解释 |
+|------|---------|------|
+| Home Run | Home Run | 单笔回报远超基金本身规模的项目 |
+| 反共识 | Non-consensus | 与市场主流判断不同的投资观点 |
+| Anti-Veto Rule | Anti-Veto Rule | 投决会需至少 2 名 partner 反对的规则 |
+| Devil's Advocate | Devil's Advocate | 投决会指定的反对方角色 |
+| Anti-Portfolio | Anti-Portfolio | 公开错过的伟大公司清单（Bessemer 首创）|
+| Operator Network | Operator Network | a16z 的 100+ 前 CEO/CTO partner 网络 |
+| Continuation Fund | Continuation Fund | 基金到期后续期 SPV |
+| Secondary | Secondary | 老股转让市场 |
+| Lock-up | Lock-up | IPO 后股东禁售期 |
+| Drag-along | Drag-along | 强制拖售权 |
+| Tag-along | Tag-along | 共同卖出权 |
+| Ratchet | Ratchet | 估值调整机制 |
+| Liquidation Preference | Liquidation Preference | 清算优先权 |
+
+## B.6 大模型 / Agent 专属术语
+
+| 中文 | English | 解释 |
+|------|---------|------|
+| 上下文窗口 | Context Window | 模型一次能处理的 token 数 |
+| 多头注意力 | Multi-Head Attention | Transformer 核心机制 |
+| 多头隐藏注意力 | MLA (Multi-head Latent Attention) | DeepSeek 创新 |
+| 专家混合 | MoE (Mixture of Experts) | 稀疏激活模型架构 |
+| 检索增强生成 | RAG | 外部检索 + LLM |
+| 函数调用 | Function Calling | LLM 调用工具的能力 |
+| 工具使用 | Tool Use | Agent 调用外部工具 |
+| 链式思考 | Chain of Thought (CoT) | 推理链 |
+| 思维树 | Tree of Thought (ToT) | 推理分支 |
+| 反思 | Reflection | Agent 自我评估 |
+| 规划 | Planning | Agent 任务规划 |
+| 长程任务 | Long-horizon Task | 数小时到数天连续任务 |
+| 多 Agent 协同 | Multi-Agent Collaboration | 多个 Agent 协作完成任务 |
+| 模型上下文协议 | MCP (Model Context Protocol) | Anthropic 标准 |
+| Token 经济学 | Token Economics | AI 应用的单位经济模型 |
+
+## B.7 具身智能专属术语
+
+| 中文 | English | 解释 |
+|------|---------|------|
+| 视觉-语言-动作模型 | VLA (Vision-Language-Action) | 具身智能核心模型 |
+| 仿真到现实 | Sim-to-Real | 仿真训练迁移到真实 |
+| 强化学习人类反馈 | RLHF | 用人类偏好微调 |
+| 模仿学习 | Imitation Learning | 学习人类示教 |
+| 行为克隆 | Behavior Cloning | 直接复制人类动作 |
+| 关节模组 | Joint Module | 机器人关节 |
+| 谐波减速器 | Harmonic Reducer | 关节减速 |
+| 六维力传感器 | 6-axis Force Sensor | 测量力和力矩 |
+| BOM 成本 | BOM (Bill of Materials) | 物料清单成本 |
+| 良率 | Yield Rate | 量产合格率 |
+
+## B.8 基础设施专属术语
+
+| 中文 | English | 解释 |
+|------|---------|------|
+| 推理 | Inference | 模型部署后产生输出 |
+| 训练 | Training | 用数据更新模型权重 |
+| 微调 | Fine-tuning | 预训练模型上再训练 |
+| 蒸馏 | Distillation | 大模型生成数据训小模型 |
+| 量化 | Quantization | 降低模型精度减小尺寸 |
+| 推理优化 | Inference Optimization | 提升推理速度降低成本 |
+| KV Cache | KV Cache | 注意力机制的缓存 |
+| 张量并行 | Tensor Parallelism | 跨多 GPU 训练 |
+| 流水线并行 | Pipeline Parallelism | 跨 GPU 阶段化训练 |
+| 数据并行 | Data Parallelism | 数据切分多 GPU |
+| 大芯片 | Wafer-scale Chip | Cerebras 等晶圆级芯片 |
+| LPU | LPU (Language Processing Unit) | Groq 推理芯片 |
+| TPU | TPU | Google 自研 AI 芯片 |
+| 国产替代 | Domestic Substitution | 国产芯片替代进口 |
+| 晶圆代工 | Wafer Foundry | 芯片代工 |
+
+---
+
 > 完整 200 条术语将在写作过程中按章节首次出现时持续追加。
